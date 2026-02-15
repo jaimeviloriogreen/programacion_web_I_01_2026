@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 60%;
+  height: 30rem;
+  margin: 2rem auto;
+  border: 2px dotted #000;
+  /* padding: 2rem; */
+}
+.cajas {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #fff;
+}
+.caja-1 {
+  background-color: blueviolet;
+  grid-area: a;
+}
+.caja-2 {
+  background-color: brown;
+  grid-area: b;
+}
+.caja-3 {
+  background-color: red;
+  grid-area: c;
+}
+.caja-4 {
+  background-color: green;
+  grid-area: d;
+}
+.caja-5 {
+  background-color: cadetblue;
+  grid-area: e;
+}
+.caja-6 {
+  background-color: steelblue;
+  grid-area: f;
+}
+/* Flexbox */
+/* .contenedor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+
+/* GRID */
+.contenedor {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d d d"
+    "e e f";
+}

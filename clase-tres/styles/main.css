@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Monsieur+La+Doulaise&display=swap");
+* {
+  /* Formateo de diseño */
+  /*Espaciado exterior*/
+  margin: 0;
+  /*Espaciado interior*/
+  padding: 0;
+  box-sizing: border-box;
+  --color: green;
+  --fondo: blue;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+.contenido,
+.pie-pagina {
+  margin: 20px;
+}
+/* Selector descendiente */
+/* section p {
+  color: green;
+} */
+
+/* Selector combinado */
+/* section.seccion {
+  color: red;
+}
+section#seccion {
+  color: blueviolet;
+} */
+
+/* Selector hijo más cercano */
+/* .seccion > p {
+  color: red;
+} */
+
+/* Selector adyacente */
+/* .seccion h3 + p {
+  color: blue;
+} */
+
+/* Selector de atributos */
+/* .seccion[width="50"] {
+  background-color: brown;
+} */
+
+/* Selector general de hermanos */
+/* .seccion h3 ~ p {
+  color: red;
+} */
+
+/* Modelo de caja */
+.cajas {
+  --dimension: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  border: 5px dotted var(--color);
+  margin: var(--dimension);
+  padding: var(--dimension);
+}
+.caja-1 {
+  width: 150px;
+  background-color: var(--fondo);
+}
+/* .caja-3 {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  overflow: scroll;
+} */
+p {
+  width: 500px;
+  display: inline-block;
+  border: 1px solid var(--color);
+  padding: 10px;
+}
+.btn {
+  width: 100px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #e00038;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff3366;
+}
