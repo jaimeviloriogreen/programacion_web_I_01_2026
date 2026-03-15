@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendiendo Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="title">Aprendiendo Javascript</h1>
+
+      <form class="form">
+        <input type="text" name="fname" placeholder="Inserta tu nombre" />
+        <input type="text" name="lname" placeholder="Inserta tu apellido" />
+
+        <select name="skills" class="select">
+          <option value="js">Javascript</option>
+          <option value="c#">C#</option>
+          <option value="python">Python</option>
+          <option value="node">Node.js</option>
+        </select>
+
+        <p>
+          Sexo: <input type="radio" name="gender" value="men" required /> Hombre
+          <input type="radio" name="gender" value="women" required /> Mujer
+        </p>
+        <button type="submit">Enviar información</button>
+      </form>
+    </main>
+
+    <!-- Aquí ponemos el javascripts -->
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
