@@ -62,7 +62,8 @@ body {
   background-color: #3b8686;
   color: #fff;
   border-radius: 0.125rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
   transition: background-color 300ms ease-in-out;
 }
 .btn-show:hover {
@@ -85,4 +86,46 @@ th {
 
 .data-table th {
   background-color: #cae2f6;
+}
+
+/* Form */
+.form {
+  margin-top: 1rem;
+}
+.form-data {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 0.5rem;
+}
+.form-data input {
+  padding: 0.7rem;
+  font-size: 1.125rem;
+}
+
+.form__btn {
+  cursor: pointer;
+  border: none;
+  background-color: #343e46;
+  color: #fff;
+  border-radius: 0.125rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+
+.delete {
+  background-color: red;
+}
+
+.update {
+  background-color: steelblue;
+}
+
+.action {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+
+  border: none;
+  border-radius: 0.125rem;
+  color: #fff;
 }
